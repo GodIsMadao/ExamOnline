@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../css/font.css"/>-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <form method="post" id="StudentRegister" action="#">
+            <dl>
+                <dd> *用户名:&nbsp;&nbsp;&nbsp;<input type="text" name="username"></dd>
+                <dt> *<label>4-20个字符，包括下划线，字母，数字</label></dt>
+                <dd>*密&nbsp;&nbsp;&nbsp;码:&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="password"></dd>
+                <dt><label>密码在6-20个字符</label></dt>
+                <dd>*确认密码:<input type="password" name="repassword"></dd>
+                <dt><label>再次输入确认密码</label></dt>
+                <dd>*姓&nbsp;&nbsp;&nbsp;名:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="realname"></dd>
+                <dd>*地&nbsp;&nbsp;&nbsp;址:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address"></dd>
+                <dd>*邮&nbsp;&nbsp;&nbsp;箱:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="email"></dd>
+                <dd>*学&nbsp;&nbsp;&nbsp;号:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="student_num"/></dd>
+                <dd>*教&nbsp;&nbsp;&nbsp;师:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="teacher_name"/></dd>
+                <dd>*学&nbsp;&nbsp;&nbsp;校:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="school"></dd>
+            </dl>
+            <button type="submit" class="btn btn-warning">立即注册</button>
+        </form>
+    </div>
+
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="../jquery/jquery.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/slidershow.js" ></script>
+</body>
+</html>

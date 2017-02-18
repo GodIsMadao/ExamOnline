@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <script type="text/javascript" src="../jquery/jquery.min.js"></script>
+    <style>
+        .btnl{ width:60px;height:25px;}
+        .btnr{ width:60px;height:25px;}
+    </style>
+</head>
+
+<body>
+
+<input type="text" class="showTime">
+<button class="btnl">开始</button>
+<button class="btnr">结束</button>
+<script type="text/javascript">
+    var timeIndex = 0;
+    $(".btnl").click(function(){    //点击btnl触发setTime()函数
+        setTime();
+        times = setInterval(setTime, 1000);    //每隔1秒执行函数
+    });
+    $(".btnr").click(function(){
+        clearInterval(times);    //清除对函数的调用
+    });
+    function setTime(){
+        var hour = parseInt(timeIndex / 3600);    // 计算时
+        var minutes = parseInt((timeIndex % 3600) / 60);    // 计算分
+        var seconds = parseInt(timeIndex % 60);    // 计算秒
+        hour = hour < 10 ? "0" + hour : hour;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        $(".showTime").val(hour + ":" + minutes + ":" + seconds);
+        timeIndex++;
+    }
+</script>

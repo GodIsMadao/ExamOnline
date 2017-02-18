@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+	<t_student id="1" username="student1" password="111" realname="zhangsan1"  sno="111110" address="aaaaaa" school="浙工大" email="111@qq.com" t_id="1"  create_date="2016-01-01" status="1" picpath="D:"/>
+	<t_student id="2" username="student2" password="222" realname="zhangsan2"  sno="111111" address="aaaaaa" school="浙工大" email="222@qq.com" t_id="2"  create_date="2016-01-01" status="1" picpath="D:"/>
+	<t_student id="3" username="student3" password="333" realname="zhangsan3"  sno="111112" address="aaaaaa" school="浙工大" email="333@qq.com" t_id="1"  create_date="2016-01-01" status="1" picpath="D:"/>
+
+	<t_teacher id="1" username="teacher1" password="111" realname="lisi1" address="aaaaaa" school="浙工大" email="444@qq.com" phone="888888" create_date="2016-01-01" status="1" picpath="D:"/>
+	<t_teacher id="2" username="teacher2" password="222" realname="lisi2" address="aaaaaa" school="浙工大" email="444@qq.com" phone="888888" create_date="2016-01-11" status="1" picpath="D:"/>
+
+	<t_exampaper id="1" pname="paper1" tag="lalala" create_date="2016-02-02" time="40" t_id="1" check_status="1" maxQuestion="10" />
+	<t_exampaper id="2" pname="paper2" tag="lalalala" create_date="2016-02-02" time="40" t_id="1" check_status="2" maxQuestion="10"/>
+
+	<t_question id="1" content="bulabula" answer="A" p_id="2" choice1="lala" choice2="baba" choice3="caca" choice4="kaka" comment="这题也能错？" />
+	<t_question id="2" content="bulabula" answer="B" p_id="2" choice1="lala" choice2="baba" choice3="caca" choice4="kaka" comment="这题也能错？"/>
+	<t_question id="3" content="bulabula" answer="D" p_id="1" choice1="lala" choice2="baba" choice3="caca" choice4="kaka" comment="这题也能错？"/>
+	<t_question id="4" content="bulabula" answer="C" p_id="2" choice1="lala" choice2="baba" choice3="caca" choice4="kaka" comment="这题也能错？"/>
+	<t_question id="5" content="bulabula" answer="D" p_id="2" choice1="lala" choice2="baba" choice3="caca" choice4="kaka" comment="这题也能错？"/>
+
+	<t_stu_paper id="1" s_id="1" p_id="1" score="0" write_status="0"/>
+	<t_stu_paper id="2" s_id="1" p_id="2" score="88" write_status="1"/>
+	<t_stu_paper id="3" s_id="2" p_id="1" score="98" write_status="1"/>
+	<t_stu_paper id="4" s_id="2" p_id="2" score="86" write_status="1"/>
+
+	<t_admin id="1" username="admin1" password="123" email="222@qq.com"/>
+
+
+	<t_stu_question id="1" s_id="1" q_id="1" right_status="2" stu_answer="B"/>
+	<t_stu_question id="2" s_id="1" q_id="2" right_status="2" stu_answer=""/>
+	<t_stu_question id="3" s_id="1" q_id="3" right_status="1" stu_answer="D"/>
+	<t_stu_question id="4" s_id="2" q_id="1" right_status="2" stu_answer="B"/>
+	<t_stu_question id="5" s_id="2" q_id="2" right_status="1" stu_answer="B"/>
+	<t_stu_question id="6" s_id="2" q_id="3" right_status="1" stu_answer="D"/>
+
+</dataset>

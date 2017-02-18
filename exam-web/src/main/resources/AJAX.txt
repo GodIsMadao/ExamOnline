@@ -1,0 +1,23 @@
+//        Pager<Question> question=new Pager<Question>();
+//        JSONArray jsonArray=JSONArray.fromObject(data);
+//        List<String> questionList = new ArrayList<String>(); /* 定义List集合 */
+//
+//        /*
+//         * 循环json数组对象取出试题数据,放入List中
+//         * 只有comment;choice1,2,3,4 ;comment ;answer
+//         */
+//        for(int i=0;i<jsonArray.size();i++){
+//            questionList.add(jsonArray.getJSONObject(i).getString("question"));
+//            System.out.println(questionList.get(i));
+//        }
+//        return "/index";
+
+
+
+//                        $(domEle).find("textarea").each(function (data) {
+//                            if ($(data).val != "" && $(data).val() != null) {
+//                                question += "," + $(data).val();
+//                            } else {
+//                                question += "," + 0;
+//                            }
+//                        });

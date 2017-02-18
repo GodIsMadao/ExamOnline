@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exam.iml" filepath="$PROJECT_DIR$/Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-hibernate/base-hibernate.iml" filepath="$PROJECT_DIR$/base-hibernate/base-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-core/exam-core.iml" filepath="$PROJECT_DIR$/exam-core/exam-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-user/exam-user.iml" filepath="$PROJECT_DIR$/exam-user/exam-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-util/exam-util.iml" filepath="$PROJECT_DIR$/exam-util/exam-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-web/exam-web.iml" filepath="$PROJECT_DIR$/exam-web/exam-web.iml" />
+    </modules>
+  </component>
+</project>

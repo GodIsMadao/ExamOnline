@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/font.css"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--<div class="container">-->
+    <div id="banner" style="width:300px">
+        <ul class="columnMenu selected">
+            <h3 class="column-title">
+                <span>试卷</span>
+            </h3>
+            <li class="column"><a href="#">已做试卷</a></li>
+            <li class="column"><a herf="#">待做试卷</a><br></li>
+            <li class="column"><a herf="#">历次得分走向</a><br></li>
+        </ul>
+        <ul class="columnMenu">
+            <h3 class="column-title">
+                <span>问题</span>
+            </h3>
+            <li class="column"><a href="#">已做问题</a></li>
+            <li class="column"><a href="#">错题集</a></li>
+        </ul>
+        <ul class="columnMenu">
+            <h3><span>个人信息</span></h3>
+            <li class="column"><a href="#">更新个人信息</a></li>
+        </ul>
+        <ul class="colmnMenu">
+            <h3><a href="#">私信</a></h3>
+        </ul>
+    </div>
+<!--</div>-->
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="../jquery/jquery.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/slidershow.js"></script>
+<script type="text/javascript" src="../js/unfold.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#banner").unfold();
+    })
+</script>
+</body>
+</html>

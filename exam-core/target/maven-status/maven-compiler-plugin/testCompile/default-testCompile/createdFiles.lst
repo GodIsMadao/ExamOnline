@@ -1,0 +1,5 @@
+zjut\sy\test\dao\TestStudentDao.class
+zjut\sy\test\util\TestUtil.class
+zjut\sy\test\util\DbUtil.class
+zjut\sy\test\util\AbstractDbUnitTestCase.class
+zjut\sy\test\util\EntitiesHelper.class
